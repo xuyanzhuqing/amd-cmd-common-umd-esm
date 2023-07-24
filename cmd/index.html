@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>Lucky Ball</title>
+<meta charset="utf-8">
+</head>
+<body>
+<p>this is seajs</p>
+
+<script src="../vendor/seajs/dist/sea.js"></script>
+<script>
+
+  // Set configuration
+  seajs.config({
+    base: "../vendor/",
+    alias: {
+      "jquery": "jquery/dist/jquery.min",
+      "jquery-easing": "jquery-easing/jquery.easing.min"
+    }
+  });
+
+  seajs.use("./app.js");
+</script>
+
+</body>
+</html>
