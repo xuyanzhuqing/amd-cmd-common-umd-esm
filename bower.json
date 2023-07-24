@@ -17,6 +17,8 @@
   ],
   "dependencies": {
     "requirejs": "^2.3.6",
-    "jquery": "^3.7.0"
+    "jquery": "^3.7.0",
+    "seajs": "^3.0.0",
+    "jquery-easing": "*"
   }
 }
